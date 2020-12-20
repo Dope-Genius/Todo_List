@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 62.5%;
+    line-height: 1.5;
+    background-color: #b7c8fa;
+
+}
+
+.container {
+    width: 50%;
+    margin: 1rem auto;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 3rem;
+    background-color: white;
+}
+
+.card-content {
+    margin-bottom: 3rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1.6rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+input[type=text] {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid blue;
+    padding: .8rem 0;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+.btn, .btn:link {
+    padding: .5rem 1.8rem ;
+    border-radius: 20px;
+    font-family: inherit;
+    border: 2px solid blue;
+    background-color: white;
+    margin-top: 1rem;
+    color: blue;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active {
+    transform: scale(.95);
+}
+
+.clear-tasks {
+    display: block;
+    margin-top: 2rem;
+    width: 8rem;
+    font-weight: 300;
+}
+
+.clear-tasks:link {
+    text-decoration: none;
+    font-family: inherit;
+    font-size: .8rem;
+    padding: .5rem 1.2rem ;
+}
+
+.collection {
+    margin: 2rem 0;
+    
+}
+
+li {
+    font-size: 2rem;
+}
